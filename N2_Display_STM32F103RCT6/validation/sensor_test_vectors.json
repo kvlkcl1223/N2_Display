@@ -1,0 +1,98 @@
+[
+  {
+    "name": "78.1",
+    "frame_hex": "01 03 14 44 00 03 0D 00 00 00 00 03 E8 00 01 00 00 00 00 40 00 00 00 59 0C",
+    "result": 0,
+    "tenths": 781
+  },
+  {
+    "name": "0.0",
+    "frame_hex": "01 03 14 44 00 00 00 00 00 00 00 03 E8 00 01 00 00 00 00 40 00 00 00 3D DB",
+    "result": 0,
+    "tenths": 0
+  },
+  {
+    "name": "9.9",
+    "frame_hex": "01 03 14 44 00 00 63 00 00 00 00 03 E8 00 01 00 00 00 00 40 00 00 00 E5 35",
+    "result": 0,
+    "tenths": 99
+  },
+  {
+    "name": "99.9",
+    "frame_hex": "01 03 14 44 00 03 E7 00 00 00 00 03 E8 00 01 00 00 00 00 40 00 00 00 36 58",
+    "result": 0,
+    "tenths": 999
+  },
+  {
+    "name": "100",
+    "frame_hex": "01 03 14 44 00 03 E8 00 00 00 00 03 E8 00 01 00 00 00 00 40 00 00 00 03 AB",
+    "result": 0,
+    "tenths": 1000
+  },
+  {
+    "name": "integer_78_to_78.0",
+    "frame_hex": "01 03 14 40 00 00 4E 00 00 00 00 03 E8 00 01 00 00 00 00 40 00 00 00 99 E8",
+    "result": 0,
+    "tenths": 780
+  },
+  {
+    "name": "99.94",
+    "frame_hex": "01 03 14 48 00 27 0A 00 00 00 00 03 E8 00 01 00 00 00 00 40 00 00 00 B1 0B",
+    "result": 0,
+    "tenths": 999
+  },
+  {
+    "name": "99.95_rounds_to_100",
+    "frame_hex": "01 03 14 48 00 27 0B 00 00 00 00 03 E8 00 01 00 00 00 00 40 00 00 00 E0 9B",
+    "result": 0,
+    "tenths": 1000
+  },
+  {
+    "name": "three_decimals_12.345",
+    "frame_hex": "01 03 14 4C 00 30 39 00 00 00 00 03 E8 00 01 00 00 00 00 40 00 00 00 11 C0",
+    "result": 0,
+    "tenths": 123
+  },
+  {
+    "name": "more_than_100",
+    "frame_hex": "01 03 14 44 00 03 E9 00 00 00 00 03 E8 00 01 00 00 00 00 40 00 00 00 52 3B",
+    "result": 8,
+    "tenths": null
+  },
+  {
+    "name": "warmup",
+    "frame_hex": "01 03 14 44 00 03 0D 00 00 00 00 03 E8 00 00 00 00 00 00 40 00 00 00 54 9C",
+    "result": 1,
+    "tenths": null
+  },
+  {
+    "name": "sensor_fault",
+    "frame_hex": "01 03 14 44 00 03 0D 00 00 00 00 03 E8 00 03 00 00 00 00 40 00 00 00 40 6C",
+    "result": 7,
+    "tenths": null
+  },
+  {
+    "name": "wrong_gas_oxygen",
+    "frame_hex": "01 03 14 44 00 03 0D 00 00 00 00 03 E8 00 01 00 00 00 00 43 00 00 00 59 48",
+    "result": 4,
+    "tenths": null
+  },
+  {
+    "name": "wrong_unit_ppm",
+    "frame_hex": "01 03 14 04 00 03 0D 00 00 00 00 03 E8 00 01 00 00 00 00 40 00 00 00 57 C3",
+    "result": 5,
+    "tenths": null
+  },
+  {
+    "name": "unknown_decimal_code",
+    "frame_hex": "01 03 14 41 00 03 0D 00 00 00 00 03 E8 00 01 00 00 00 00 40 00 00 00 95 59",
+    "result": 6,
+    "tenths": null
+  },
+  {
+    "name": "low_alarm_still_numeric",
+    "frame_hex": "01 03 14 44 00 03 0D 00 00 00 00 03 E8 00 05 00 00 00 00 40 00 00 00 6B CC",
+    "result": 0,
+    "tenths": 781
+  }
+]

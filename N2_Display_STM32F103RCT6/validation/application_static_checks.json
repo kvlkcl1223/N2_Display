@@ -1,0 +1,25 @@
+{
+  "all_passed": true,
+  "checks": {
+    "application_C_grammar_parsed": true,
+    "application_function_calls_resolved": true,
+    "keil_all_sources_exist": true,
+    "keil_no_duplicate_source_paths": true,
+    "custom_sources_in_project": true,
+    "user_code_hooks": true,
+    "stack_ioc_2048": true,
+    "stack_startup_2048": true,
+    "hal_weak_callbacks_enabled": true,
+    "HAL_TIM_PeriodElapsedCallback_single_definition": true,
+    "HAL_UART_RxCpltCallback_single_definition": true,
+    "HAL_UART_ErrorCallback_single_definition": true,
+    "TIM3_HAL_irq_dispatch": true,
+    "USART1_HAL_irq_dispatch": true
+  },
+  "scope": "C grammar parsing with HAL type placeholders, call-name resolution, source paths and hooks only; no compiler, linker or hardware test",
+  "source_sha256": {
+    "n2_protocol.c": "ab25315606a368b2bb8dda5590d18aeebc4adf255e406d146fc6b5e4436c2d6f",
+    "display_7seg.c": "e2e24fb92f725c3a66e16d44080974b90bea749aac132b97e3d816d801e6409c",
+    "app_n2.c": "15a28aa44b172de65f8b5d58319506d329febeae9f7dd9392e8a10f113b75705"
+  }
+}

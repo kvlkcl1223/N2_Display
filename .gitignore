@@ -1,0 +1,14 @@
+/*
+!/.gitignore
+!/N2_Display_STM32F103RCT6/
+/N2_Display_STM32F103RCT6/backups/
+/N2_Display_STM32F103RCT6/**/__pycache__/
+/N2_Display_STM32F103RCT6/**/*.pyc
+/N2_Display_STM32F103RCT6/**/*.log
+/N2_Display_STM32F103RCT6/MDK-ARM/N2_Display/
+/N2_Display_STM32F103RCT6/MDK-ARM/*.uvoptx
+/N2_Display_STM32F103RCT6/MDK-ARM/*.uvguix.*
+/N2_Display_STM32F103RCT6/**/*.hex
+/N2_Display_STM32F103RCT6/**/*.axf
+/N2_Display_STM32F103RCT6/**/*.o
+/N2_Display_STM32F103RCT6/**/*.obj

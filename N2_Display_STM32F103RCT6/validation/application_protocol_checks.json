@@ -1,0 +1,39 @@
+{
+  "all_passed": true,
+  "checks": [
+    "fixed_modbus_query_crc",
+    "crc_lengths_0_to_39",
+    "78.1",
+    "0.0",
+    "9.9",
+    "99.9",
+    "100",
+    "integer_78_to_78.0",
+    "99.94",
+    "99.95_rounds_to_100",
+    "three_decimals_12.345",
+    "more_than_100",
+    "warmup",
+    "sensor_fault",
+    "wrong_gas_oxygen",
+    "wrong_unit_ppm",
+    "unknown_decimal_code",
+    "low_alarm_still_numeric",
+    "bad_crc",
+    "truncated_frame",
+    "wrong_address",
+    "null_frame",
+    "modbus_exception",
+    "all_1001_display_values_and_overflow"
+  ],
+  "display_values_checked": 1001,
+  "method": "pycparser AST interpretation of actual n2_protocol.c, using the documented integer-only subset; no compiler invoked",
+  "not_tested": [
+    "ARM execution",
+    "HAL UART ISR timing",
+    "main-loop state machine on target",
+    "linking",
+    "electrical wiring"
+  ],
+  "source_sha256": "ab25315606a368b2bb8dda5590d18aeebc4adf255e406d146fc6b5e4436c2d6f"
+}
